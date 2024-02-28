@@ -1,0 +1,28 @@
+body {
+    background-image: url(../imgs/cEz3G.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+
+}
+
+.tiles {
+    margin: 40px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 16px;
+}
+
+.tile {
+    height: 100px;
+    background: black;
+    border: 5px;
+    cursor: pointer;
+}
+@media (max-width: 800px){
+    .tiles{
+        grid-template-columns: repeat(4, 50px);
+    }
+   
+  }
